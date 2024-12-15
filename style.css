@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+
+.nav_list {
+    display: flex;
+    gap: 5rem;
+    font-size: 1.7rem;
+    list-style: none;
+}
+
+.nav_list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.show-popup {
+    margin-top: 50px;
+    margin-left: 600px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    margin-left: 100px;
+}
+
+/* .folders .show-popup{
+   .
+  
+} */
+
+.show-popup:hover{
+ 
+    cursor: pointer;
+    
+}
+#content{
+    width: 500px;
+    color: white;
+    bottom: 20px;
+    position: absolute;
+    left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.show-popup{
+    border: none;
+}
+
+.show-popup:hover{
+    background-color: #333;
+    color: wheat;
+    box-shadow: 2px 5px 3px gray;
+}
+
+.main2{
+    margin-top: 30px;
+}
+#showAlert1{
+   
+   
+   left: 170px;
+}
+
+#showAlert3{
+    right: 300px;
+}
+#img1 {
+    width: 80px;
+    height: 80px;
+}
+
+.Hamburger {
+    flex-direction: column;
+    gap: 5rem;
+    display: none;
+}
+
+.Hamburger span {
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#price1 {
+    font-size: 2rem;
+    margin-left: 80px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main2 img {
+    width: 1340px;
+    height: 500px;
+}
+ 
+
+  main.Review {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .reviews {
+    background: #e5e5e5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+
+  }
+
+  .reviews:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  .reviews img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+
+  .reviews p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+  }
+ 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+@media(max-width:768px) {
+    .nav_list {
+        position: absolute;
+        flex-direction: column;
+        background-color: #333;
+        gap: 5px;
+        top: 120px;
+        width: 100%;
+        left: 0;
+        padding: 1rem;
+
+    }
+
+    .Hamburger {
+        display: flex;
+    }
+}
